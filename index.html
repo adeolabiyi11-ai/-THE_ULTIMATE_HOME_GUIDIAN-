@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>The Ultimate Home Guardian</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<h1>The Ultimate Home Guardian</h1>
+
+<h2>AI Smart Security Dashboard</h2>
+
+<div class="panel">
+
+<h3>Device Status</h3>
+<p id="deviceStatus">Checking...</p>
+
+</div>
+
+<div class="panel">
+
+Temperature: <span id="temp"></span><br>
+
+Humidity: <span id="hum"></span><br>
+
+Rain Prediction: <span id="rain"></span>
+
+</div>
+
+<div class="panel">
+
+Door Status: <span id="door"></span>
+
+</div>
+
+<div class="panel">
+
+<h3>Command Console</h3>
+
+<input id="commandBox">
+
+<button onclick="sendCommand()">Send</button>
+
+</div>
+
+<div class="panel">
+
+<button onclick="voice()">Voice Command</button>
+
+</div>
+
+<div class="panel">
+
+<h3>House Motion Map</h3>
+
+<canvas id="houseMap" width="300" height="200"></canvas>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
