@@ -1,0 +1,25 @@
+body{
+background:#061025;
+color:white;
+font-family:Arial;
+text-align:center;
+}
+
+.panel{
+background:#102040;
+margin:20px;
+padding:20px;
+border-radius:10px;
+}
+
+button{
+padding:10px 20px;
+background:#00eaff;
+border:none;
+cursor:pointer;
+}
+
+input{
+padding:10px;
+margin:10px;
+}
